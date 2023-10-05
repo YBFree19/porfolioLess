@@ -1,0 +1,39 @@
+// main: "../style.less"
+
+.work{
+   overflow: hidden;
+   box-shadow: 0 0 4px fade(#000, 25% );
+   border-radius: 10px;
+   transition: box-shadow .2s linear;
+
+   &:hover{
+      box-shadow: 0 0 25px fade(#000, 25% );
+   }
+}
+
+.work__img{
+   display: block;
+   min-width: 100%;
+   height: auto;
+}
+
+.work__content{
+   padding: 1rem 0.8rem;
+}
+
+.work__cat{
+   font-size: 0.8rem;
+   margin-bottom: 0.5rem;
+   color: @black;
+   text-transform: uppercase;
+
+}
+
+.work__title{
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.08rem;
+   color: @black;
+   text-transform: uppercase;
+   font-weight: bold;
+}

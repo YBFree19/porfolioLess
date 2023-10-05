@@ -1,0 +1,100 @@
+// main: "../style.less"
+
+
+.model-work{
+   display: flex;
+}
+
+.model-work__preview{
+   width: 65%;
+   position: relative;
+   overflow: hidden;
+}
+
+.model-work__photo{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.model-work__content{
+   position: relative;
+   width: 35%;
+   padding: 3.4rem 6.6rem 1rem 1.73rem;
+}
+
+.model-work__header{
+   margin-bottom: 2.2rem;
+}
+
+.model-work__title{
+   margin-bottom: 0.1rem;
+   font-size: 2.12rem;
+   color: @black;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+.model-work__info{
+   font-size: 1.2rem;
+   color: @gray;
+   text-transform: uppercase;
+}
+
+.model-work__divider{
+   margin: 0 1rem;
+}
+
+.model-work__client{
+   margin-bottom: 2.2rem;
+}
+
+.model-work__client-title{
+   margin-bottom: .2rem;
+   font-size: 1.06rem;
+   color: @black;
+   font-weight: 700;
+}
+
+.model-work__client-company{
+   font-size: 0.94rem;
+   font-style: italic;
+   color: @gray;
+
+}
+
+.model-work__text{
+   margin-bottom: 8.66rem;
+   font-size: .8rem;
+   color: @gray;
+   line-height: 2;
+   font-weight: 300;   
+}
+
+.model-work__footer{
+   width: 100%;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   padding: 0 1.8rem 1rem;
+   z-index: 1;
+   display: flex;
+   justify-content: space-between;
+}
+
+.model-work__btn{
+   font-size: 0.94rem;
+   color: @black;
+   font-family: inherit;
+   cursor: pointer;
+   text-transform: uppercase;
+   padding: 0;
+   border: 0;
+   background: none;
+}
+
+.next__btn-icon{
+   transform: rotate(180deg);
+}
