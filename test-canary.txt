@@ -1,0 +1,2 @@
+dbi-ru-canary-test-8f3a1c
+mfa.dbi.ru
